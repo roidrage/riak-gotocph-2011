@@ -1,0 +1,19 @@
+body {
+  font-family: "GillSans-Light";
+}
+
+h2 {
+  font-size: 80px;
+}
+
+h1 {
+  font-size: 90px;
+}
+
+li {
+  font-size: 75px;
+}
+
+a {
+  color: black;
+}
