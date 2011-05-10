@@ -41,6 +41,18 @@
 * Prefilter Web Links, Tweet Relationships
 * Store as Riak Links
 
-!SLIDE
+!SLIDE bullets incremental
 
 ## Links ##
+
+* Connect Websites
+* Twitter Replies
+* Twitter Users' Tweets
+
+!SLIDE bullets
+
+# Use Case: Linkfluence #
+
+* 200 GB Link Data Stored Every Day
+* Content and Metadata
+* Indexed using PostgreSQL, Solr and Elastic Search
