@@ -21,7 +21,7 @@
     {
       id: 41626118990497,
       timestamp: 1300845012,
-      category:“likes-message”,
+      category: "likes-message",
       properties: {
         liker_id: 97238,
         thread_id: 2663589,

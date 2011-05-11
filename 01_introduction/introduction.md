@@ -18,21 +18,7 @@
 
 !SLIDE
 
-## Scalable Data Store ##
-
-!SLIDE
-
-## No Master Nodes ##
-
-!SLIDE
-
-## Fault-Tolerant ##
-
-!SLIDE bullets incremental
-
-## Scales out easily ##
-
-* Just add more nodes
+## Distributed Data Store ##
 
 !SLIDE
 
@@ -48,17 +34,32 @@
 
 !SLIDE
 
+## No Master Nodes ##
+
+!SLIDE
+
 ## Consistent Hashing ##
 
 !SLIDE center
 
 ![Riak Ring](riak-ring.png)
- 
+
+!SLIDE bullets incremental
+
+## Scales out easily ##
+
+* Just add more nodes
+
 !SLIDE bullets incremental
 
 ## Replication ##
 
 * Tunable Consistency
+
+!SLIDE
+
+## Fault-Tolerant ##
+
 
 !SLIDE
 

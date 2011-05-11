@@ -22,6 +22,9 @@
 
 ## Tweets ##
 
+### Key: Tweet ID ###
+### Content: ###
+
     {
       "text": "Tweeting live from my talk at #gotocph",
       "user": {
@@ -55,7 +58,7 @@
 
 !SLIDE smallest
 
-    Link: </riak/websites/www.gotocon.com/aarhus-2011/>; riaktag="external"
+    Link: </riak/websites/gotocon.com%2Faarhus-2011>; riaktag="external"
 
 !SLIDE smallest
 
@@ -85,5 +88,5 @@
 # Use Case: Linkfluence #
 
 * Hundreds of GB Data Stored Every Day
-* Content and Metadata
+* Content and Metadata in Riak
 * Indexed with Postgres, Solr and ElasticSearch

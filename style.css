@@ -2,6 +2,10 @@ body {
   font-family: "GillSans-Light";
 }
 
+h3 {
+  font-size: 55px;
+}
+
 h2 {
   font-size: 70px;
 }
