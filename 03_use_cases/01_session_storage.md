@@ -24,6 +24,14 @@
 
 !SLIDE
 
+## Concern: Session Expiry ##
+
+!SLIDE
+
+## Solution: Bitcask ##
+
+!SLIDE
+
 ## Concern: Latency ##
 
 !SLIDE

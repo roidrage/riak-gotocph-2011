@@ -2,16 +2,16 @@
 
 # Basic Riak Usage #
 
-!SLIDE small
+!SLIDE smaller
 
 # Simplified Data Structure #
 
-    bucket: gotocph
-    key: greeting
-    value: “<h1>Hi gotocph<h1>” 
+    bucket:   gotocph
+    key:      greeting
+    value:    “<h1>Hi gotocph<h1>” 
     metadata: content-type=text/html
 
-!SLIDE smallest
+!SLIDE smallish
 
 # Store Data #
 
@@ -22,7 +22,7 @@
     > Content-Type: text/html
     > Content-Length: 18
 
-!SLIDE smallest
+!SLIDE smallish
 
     < HTTP/1.1 200 OK
     < X-Riak-Vclock: a85hYGBgzmDKBVIsTDb6JzOYEhnzWBmit8gf=
@@ -33,7 +33,7 @@
     < Content-Type: text/html
     < Content-Length: 18
 
-!SLIDE smallest
+!SLIDE smallish
 
 # Get Data #
 
@@ -42,7 +42,7 @@
     > Host: localhost:8098
     > Accept: */*
 
-!SLIDE smallest
+!SLIDE smallish
 
     < HTTP/1.1 200 OK
     < X-Riak-Vclock: a85hYGBgzmDKBVIsTDb6JzOYEhnzWBmit8gf=
