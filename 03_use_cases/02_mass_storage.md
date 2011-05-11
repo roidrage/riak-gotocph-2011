@@ -53,6 +53,18 @@
 * Twitter Replies
 * Twitter Users' Tweets
 
+!SLIDE smallest
+
+    Link: </riak/websites/www.gotocon.com/aarhus-2011/>; riaktag="external"
+
+!SLIDE smallest
+
+    Link: </riak/tweets/41212010>; riaktag="in_reply_to"
+
+!SLIDE smallest
+
+    Link: </riak/twitter_users/roidrage>; riaktag="owner"
+
 !SLIDE bullets incremental
 
 ## Lookup ##
@@ -68,7 +80,7 @@
 * Solr-Compatible API
 * Integrated with Riak KV
 
-!SLIDE bullets
+!SLIDE bullets incremental
 
 # Use Case: Linkfluence #
 

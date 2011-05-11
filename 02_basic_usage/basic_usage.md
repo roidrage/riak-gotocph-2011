@@ -107,14 +107,14 @@
 * Connect Riak Objects
 * Walkable
 
-!SLIDE
+!SLIDE smaller
 
 ## Add Link ##
 
     > PUT /riak/gotocph/greeting HTTP/1.1
     > Link: </riak/gotocph/introduction>; riaktag="next"
 
-!SLIDE
+!SLIDE smaller
 
 ## Walk Links ##
 

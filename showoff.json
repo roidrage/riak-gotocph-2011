@@ -3,6 +3,7 @@
   "sections": [
     {"section": "01_introduction"},
     {"section": "02_basic_usage"},
-    {"section": "03_use_cases"}
+    {"section": "03_use_cases"},
+    {"section": "04_our_own"}
   ]
 }

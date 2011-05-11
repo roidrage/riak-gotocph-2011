@@ -20,6 +20,10 @@
 
 !SLIDE
 
+## A.k.a. Amazon's Shopping Cart ##
+
+!SLIDE
+
 ## Concern: Latency ##
 
 !SLIDE
