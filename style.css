@@ -3,7 +3,7 @@ body {
 }
 
 h2 {
-  font-size: 80px;
+  font-size: 70px;
 }
 
 h1 {
@@ -11,7 +11,7 @@ h1 {
 }
 
 li {
-  font-size: 75px;
+  font-size: 55px;
 }
 
 a {
@@ -19,5 +19,5 @@ a {
 }
 
 .smallest {
-  font-size: 45%;
+  font-size: 50%;
 }

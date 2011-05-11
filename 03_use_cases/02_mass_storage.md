@@ -1,4 +1,8 @@
-!SLIDE
+!SLIDE bullets
+
+# Mass Storage #
+
+!SLIDE bullets
 
 # Social Media #
 
@@ -14,7 +18,7 @@
 * Well-Known Keys
 * Links for Relationships
 
-!SLIDE
+!SLIDE smaller
 
 ## Tweets ##
 
@@ -27,11 +31,11 @@
       "id_str": "67953117043499008",
     }
 
-!SLIDE
+!SLIDE bullets
 
 ## Websites ##
 
-* Key: `gotocon.com/cph-2011`
+* Key: gotocon.com/cph-2011
 * Content: Blob with text/html
 
 !SLIDE bullets incremental
@@ -49,10 +53,25 @@
 * Twitter Replies
 * Twitter Users' Tweets
 
+!SLIDE
+
+## Lookup ##
+
+* Secondary Indexes
+* Full Text Search
+
+!SLIDE bullets incremental
+
+## Riak Search ##
+
+* Distributed Full Text Search
+* Solr-Compatible API
+* Integrated with Riak KV
+
 !SLIDE bullets
 
 # Use Case: Linkfluence #
 
-* 200 GB Link Data Stored Every Day
+* Hundreds of GB Data Stored Every Day
 * Content and Metadata
-* Indexed using PostgreSQL, Solr and Elastic Search
+* Indexed with Postgres, Solr and ElasticSearch

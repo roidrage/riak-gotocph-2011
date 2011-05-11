@@ -8,7 +8,11 @@
 
 !SLIDE
 
-## Cross-Datacenter Session Replication ##
+## Well-Known Keys ##
+
+!SLIDE
+
+## Cross-Datacenter Replication ##
 
 !SLIDE
 
@@ -16,7 +20,7 @@
 
 !SLIDE
 
-## Main Concern: Latency ##
+## Concern: Latency ##
 
 !SLIDE
 

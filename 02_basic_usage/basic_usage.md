@@ -13,15 +13,19 @@
 
 !SLIDE smallest
 
+# Store Data #
+
     > PUT /riak/gotocph/greeting HTTP/1.1
-    > User-Agent: curl/7.19.7 (universal-apple-darwin10.0) libcurl/7.19.7 OpenSSL/0.9.8l zlib/1.2.3
+    > User-Agent: curl/7.19.7 (universal-apple-darwin10.0)
     > Host: localhost:8098
     > Accept: */*
     > Content-Type: text/html
     > Content-Length: 18
-    > 
+
+!SLIDE smallest
+
     < HTTP/1.1 200 OK
-    < X-Riak-Vclock: a85hYGBgzmDKBVIsTDb6JzOYEhnzWBmit8gf44MJv9t5FipcgBBma05inekYiiyRBQA=
+    < X-Riak-Vclock: a85hYGBgzmDKBVIsTDb6JzOYEhnzWBmit8gf=
     < Vary: Accept-Encoding
     < Server: MochiWeb/1.1 WebMachine/1.7.2 (participate in the frantic)
     < Link: </riak/gotocph>; rel="up"
@@ -31,13 +35,17 @@
 
 !SLIDE smallest
 
+# Get Data #
+
     > GET /riak/gotocph/greeting HTTP/1.1
-    > User-Agent: curl/7.19.7 (universal-apple-darwin10.0) libcurl/7.19.7 OpenSSL/0.9.8l zlib/1.2.3
+    > User-Agent: curl/7.19.7 (universal-apple-darwin10.0)
     > Host: localhost:8098
     > Accept: */*
-    > 
+
+!SLIDE smallest
+
     < HTTP/1.1 200 OK
-    < X-Riak-Vclock: a85hYGBgzmDKBVIsTDb6JzOYEhnzWBmit8gf44MJv9t5FipcgBBma05inekYiiyRBQA=
+    < X-Riak-Vclock: a85hYGBgzmDKBVIsTDb6JzOYEhnzWBmit8gf=
     < Vary: Accept-Encoding
     < Server: MochiWeb/1.1 WebMachine/1.7.2 (participate in the frantic)
     < Link: </riak/gotocph>; rel="up"
@@ -55,8 +63,40 @@
 
 * MapReduce
 * JavaScript or Erlang
+* Riak Search
 
 !SLIDE bullets incremental
 
 # MapReduce #
+
+* Map phases
+* Reduce phases 
+
+!SLIDE smaller
+
+## Map Function ##
+
+    @@@ javascript
+    function(value, keydata, args) {
+      var doc = Riak.mapKeyValuesJson(value)[0];
+      if (doc.host.match(/basho\.com/)) {
+        return [1];
+      }
+    }
+
+!SLIDE smaller
+
+## Reduce Function ##
+
+    @@@ javascript
+    function(values) {
+      if (values.length > 0) {
+        return [values.reduce(function(previous, current) {
+          return previous + current;
+        })];
+      }
+      else {
+        return [0];
+      }
+    }
 

@@ -1,4 +1,7 @@
-!SLIDE 
+!SLIDE center
+
+![Riak Logo](riak-logo.png)
+
 # Riak in Production #
 ## Stories from the Trenches #
 
@@ -47,9 +50,9 @@
 
 ## Consistent Hashing ##
 
-!SLIDE
+!SLIDE center
 
-# TODO: Graphic #
+![Riak Ring](riak-ring.png)
  
 !SLIDE bullets incremental
 
