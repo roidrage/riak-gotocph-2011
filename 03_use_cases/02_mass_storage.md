@@ -53,7 +53,7 @@
 * Twitter Replies
 * Twitter Users' Tweets
 
-!SLIDE
+!SLIDE bullets incremental
 
 ## Lookup ##
 

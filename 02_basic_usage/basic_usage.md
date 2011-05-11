@@ -100,3 +100,22 @@
       }
     }
 
+!SLIDE bullets incremental
+
+## Links ##
+
+* Connect Riak Objects
+* Walkable
+
+!SLIDE
+
+## Add Link ##
+
+    > PUT /riak/gotocph/greeting HTTP/1.1
+    > Link: </riak/gotocph/introduction>; riaktag="next"
+
+!SLIDE
+
+## Walk Links ##
+
+    > GET /riak/gotocph/greeting/_,next,_/ HTTP/1.1
