@@ -64,6 +64,28 @@
 
 ## Conflict Resolution using Vector Clocks ##
 
+!SLIDE
+
+## Vector Clocks ##
+
+    <Mathias, 1>
+
+!SLIDE
+
+## Vector Clocks ##
+
+    <Mathias, 1>, <Kresten, 1>
+
+!SLIDE bullets incremental
+
+## Vector Clocks - Siblings ##
+
+    <Mathias, 1>, <Kresten, 1>
+
+    <Mathias, 1>, <Tony, 1>
+
+* Conflict!
+
 !SLIDE bullets incremental
 
 ## Sane REST API ##
