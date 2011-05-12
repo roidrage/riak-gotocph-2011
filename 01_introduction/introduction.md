@@ -22,7 +22,7 @@
 
 !SLIDE
 
-## Key-value Data Model ##
+## Key-Value Data Model ##
 
 !SLIDE
 
@@ -61,9 +61,11 @@
 ## Fault-Tolerant ##
 
 
-!SLIDE
+!SLIDE bullets incremental
 
-## Conflict Resolution using Vector Clocks ##
+## Conflict Resolution ##
+
+* Vector Clocks
 
 !SLIDE
 

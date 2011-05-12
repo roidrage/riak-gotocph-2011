@@ -56,15 +56,15 @@
 * Twitter Replies
 * Twitter Users' Tweets
 
-!SLIDE smallest
+!SLIDE smallish
 
     Link: </riak/websites/gotocon.com%2Faarhus-2011>; riaktag="external"
 
-!SLIDE smallest
+!SLIDE smallish
 
     Link: </riak/tweets/41212010>; riaktag="in_reply_to"
 
-!SLIDE smallest
+!SLIDE smallish
 
     Link: </riak/twitter_users/roidrage>; riaktag="owner"
 
